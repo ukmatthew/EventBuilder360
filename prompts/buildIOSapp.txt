@@ -1,0 +1,20 @@
+We are in Phase 1
+There is a blank IOS app un the eventBuilder 360 folder
+I'd like to ge this ready for the event
+We need to 
+1 - Connect the app to Supabase - we have a SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY in .env (secret key is not used in the iOS client)
+SUPABASE is setup with a single table, events, this has three columns (id (int8), created_at (timestamptz), name (text)) with a single record "SXSW 2026"
+For now this is a prototype for a demo workshop so we are going to use the publishable key with anon privileges in Supabase. Authentication will be a problem to be solved later
+2 - the first screen in the IOS app should be the Event Directory.  It should show tiles representing all the events in the events table and an 'add event' dotted tile.   This add event dotted tile is simply a placeholder and doesn't function
+3 - if you select the event, then it opens a 2nd blank IOS which is the event home page - it should have a title (events.name) and the content should be an icon with 'to be built in the SXSW Vibe Programming workshop'
+4 - we need a tab bar at the bottom - we will have mutiple tabs - for now just an event Tab with appropriate icon that navigates back to the Evwents screen
+Do you have any questions?
+
+Implementation details confirmed:
+- Use SwiftUI
+- Target iOS 17+
+- Use values from .env for Supabase connection (URL + publishable key)
+- Event directory sorted newest first (created_at desc)
+- Event directory uses a 3-column grid
+- Event Home icon: choose an appropriate SF Symbol
+- Bottom tab bar has one tab for now: Events

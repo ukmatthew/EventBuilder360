@@ -1,0 +1,1 @@
+INSERT INTO "public"."events" ("id", "created_at", "name") VALUES ('1', '2026-02-27 11:34:17.572308+00', 'SXSW 2026');

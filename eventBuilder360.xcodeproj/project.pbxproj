@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F31568762F5747B80011F9ED /* eventBuilder360.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = eventBuilder360.xcodeproj; sourceTree = "<group>"; };
 		F37F14322F508EDE001C3D27 /* eventBuilder360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eventBuilder360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37F14442F508EDF001C3D27 /* eventBuilder360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eventBuilder360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37F144E2F508EDF001C3D27 /* eventBuilder360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eventBuilder360UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +73,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F31568792F5747B80011F9ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F37F14292F508EDD001C3D27 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +206,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F37F14332F508EDE001C3D27 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F31568792F5747B80011F9ED /* Products */;
+					ProjectRef = F31568762F5747B80011F9ED /* eventBuilder360.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F37F14312F508EDD001C3D27 /* eventBuilder360 */,
