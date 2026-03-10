@@ -7,7 +7,7 @@ We are starting to build an application called 'Event Builder 360'
 There are three phases
 
 Phase 1 (in progress) - in preparation for a SXSW workshop - see Vibe Coding from Idea to MVP at Warp Speed' in the SXSW folder
-Phase 2 - the SXSW Workshop - March 14th 2026
+Phase 2 (currently testing/rehearsing) - the SXSW Workshop - March 14th 2026
 Phase 3 - Build out of the actual application
 
 Although we are Vibe Coding the app, PLANNING is the single most important aspect.   We will be building this in modules and Open Sourcing it.  
@@ -17,3 +17,5 @@ ALL PLANNING DOCUMENTS SHOULD BE STORED IN THE PLANNING FOLDER
 Currently we have
 1-HighLevelPlan.md
 
+Additional Rules
+When making changes to the IOS app, always validate by testing the Build

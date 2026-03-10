@@ -2,8 +2,9 @@
 I'd like it to show a list of Event Activities with an option to add an acitvity'
 2.1 Each event activity should be a card 
 Tapping the card should open a new screen with full activity details  
-3.1 We will need an eventActivities table with appropriate meta data columns - eg time (local), location, title, description, speakers, type etc' 
-3.2 We will need to populate the table with some sample SXSW events
+3.1 We will need an eventActivities table with appropriate meta data columns - eg time (local), location, title, description, speakers, type etc'
+3.2 We will need to allow all users read/write access to this table as we don't have auth in place for this prototyping
+3.3 We will need to populate the table with some sample SXSW events - eg this event, the keynote, and maybe some music and film events
 4. For now NO CODE - let's build a plan
 5. Do you have any questions?
 6. Other - none
