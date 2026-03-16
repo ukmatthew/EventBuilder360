@@ -1,0 +1,9 @@
+1 - The task in hand 
+I want to add the ability to visualise room capacity, reservations, and queue status so delegates can see which sessions are full or available
+2.x - more detail on the sub-tasks
+This is something I'd like to visualise on the activity csrd - just a prototype for now
+3.x - Data and/or external interactions
+We will need some more metadata for the activity - room capacity, registered users, scanned in users, length of queue - can we ammend our test activities to show this pleaee
+4. Code/No-code
+No code yet - give me your thoguhts on what we can easi;ly and quickl;y prototype
+5. Do you have any questions?
